@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+  }
+  .card {
+    width: 350px;
+    max-width: 350px;
+    padding: 3px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 21px;
+    box-shadow: 2px 2px 18px #000;
+  }
+  .card-img {
+    width: 100%;
+    background: linear-gradient(#00ff88, #95ff00);
+    border-radius: 18px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-img:nth-child(2n){
+    background: linear-gradient(#666,#00ff88);
+  }
+  .card-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 27px;
+    padding: 12px 6px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .description {
+    font-size: 20px;
+    padding: 0px 6px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  .price-section {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 12px 6px;
+    gap: 19px;
+    width: 100%;
+  }
+  .old-price {
+    font-size: 21px;
+    color: #565a5e;
+    text-decoration: line-through;
+  }
+  .new-price {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .add-to-card {
+    padding: 12px 24px;
+  }
+  .btn {
+    padding: 7px 14px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+    border-radius: 12px;
+    background: linear-gradient(#00ff88, #95ff00);
+    border: none;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 89px;
+    padding: 5px 10px;
+  }
